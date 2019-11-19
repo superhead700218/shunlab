@@ -17,3 +17,4 @@ cd /usr/local/nginx/
 ./nginx    #启动服务，现在访问localhost就能看到nginx的欢迎界面了
 systemctl stop firewalld #保险起见，关闭防火墙
 systemctl disable firewalld 
+systemctl start nginx
