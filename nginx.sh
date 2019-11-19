@@ -1,2 +1,2 @@
 #!/bin/bash
-top
+yum -y install wget
