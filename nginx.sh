@@ -1,4 +1,5 @@
 #!/bin/bash
+yum -y install wget 
 mkdir /soft
 cd /soft
 wget -c http://nginx.org/download/nginx-1.14.0.tar.gz  #这里需要根据自己的情况修改这个URL
